@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(253, 251, 251)
+}
+#cabecalho{
+    position:fixed;
+    /* display:block; */
+    top: 0px;
+    left: 30px;
+    background-color:red;
+}
+#minha_foto{
+    width: 200px;
+}
+/* #licoes_aprendidas{
+
+} */
