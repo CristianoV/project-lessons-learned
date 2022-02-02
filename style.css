@@ -3,11 +3,15 @@ body{
 }
 #cabecalho{
     position:fixed;
-    /* display:block; */
+    right: 0px;
     top: 0px;
-    left: 30px;
+    left:0px;
     background-color:red;
 }
 #minha_foto{
     width: 200px;
+    position: fixed;
+}
+#aprendizado{
+    
 }
