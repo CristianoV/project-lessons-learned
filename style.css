@@ -1,63 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
 body{
     background-color:rgb(253, 251, 251)
 }
-#sessao{
-    display:block;
-    width: 40px;
-}
 #cabecalho{
-    position:fixed;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
     right: 0px;
     top: 0px;
     left:0px;
     background-color:green;
-    
+}
+#navegacao{
+    display: flex;
+    gap: 20px;
+}
+#sessao{
+    padding-top: 72px;
 }
 #minha_foto{
-    width: 400px;
-    position: fixed;
-    top: 100px;
-    right: 80px;
+    width: 200px;
     border-radius: 150px;
-    
+}
+.primeira-noticia{
+    display: flex;
+    padding: 50px;
 }
 #aprendizado{
-    display: inline-block;
-    top: 100px;
-    max-width: 50px;
-    position:fixed;
-    padding: 10px 10px 0px;
-}
-#aprendizado, p{
-    padding: 0px 10px;
+    max-width: 50%;
+    margin: 45px 70px;
 }
 #licoes{
-    display: inline-block;
-    top: 200px;
-    max-width: 20px;
-    position:fixed ; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
-#licoes_aprendidas{
-    display: inline-block;
-    top: 250px;
-    max-width: 20px;
-    position:fixed ; 
+.listas{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-bottom: 60px;
 }
-#licoes_a_aprender{
-    display: inline-block;
-    top: 450px;
-    max-width: 20px;
-    position:fixed ; 
+#lições{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-bottom: 40px;
 }
 #rodape{
-    display:inline-block;
-    position:fixed;
-    right: 0px;
-    top: 645px;
-    left:0px;
-    background-color:green;
-    padding: 10px;
-    border: 5px solid red;
-    height: 100px;
-    
+    background-color: green;
+    padding: 60px;
 }
