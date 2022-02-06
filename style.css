@@ -55,5 +55,10 @@ body{
 }
 #rodape{
     background-color: green;
-    padding: 60px;
+    padding: 40px;
+}
+#social{
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
 }
